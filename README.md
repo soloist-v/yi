@@ -1,7 +1,7 @@
 # yi
 
 Yi is a simple deep learning framework based on Numpy that supports automatic gradients.
-## install
+## Installation
 `python setup.py install`
 
 ## Usage:
