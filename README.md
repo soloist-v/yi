@@ -1,6 +1,6 @@
 # yi
 
-Yi is a simple deep learning framework based on Numpy that supports automatic gradients.
+yi is a simple deep learning framework based on Numpy that supports automatic gradients.
 ## Installation
 `python setup.py install`
 
