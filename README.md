@@ -4,7 +4,7 @@ Yi is a simple deep learning framework based on Numpy that supports automatic gr
 ## install
 `python setup.py install`
 
-## Example:
+## Usage:
 
 #### 1.Define network
 
