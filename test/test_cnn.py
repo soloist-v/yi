@@ -65,7 +65,7 @@ class LimitedList(list):
 
 
 if __name__ == '__main__':
-    imgs, labels = load_data("imgs")
+    imgs, labels = load_data("../imgs")
     print(imgs.shape, labels.shape)
     model = LeNet()
     lr = 0.001
