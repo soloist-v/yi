@@ -18,8 +18,8 @@ if __name__ == '__main__':
         long_description="工具接口",
         keywords='yi',
         packages=find_packages(),
-        package_data={'yi': ['*.*']},
-        python_requires=">=3.7",
+        package_data={'': ['*.*']},
+        python_requires=">=3.4",
         install_requires=get_install_requires(),
         zip_safe=False)
     if sys.argv[1] != "bdist_wheel":
