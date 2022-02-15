@@ -47,7 +47,7 @@ import numpy as np
 
 
 def sigmoid(x):
-    return 1 / (1 + Exp.apply(-x))
+    return 1 / (1 + Exp(-x))
 
 
 def tanh(x: Tensor):
