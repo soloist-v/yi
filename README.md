@@ -1,6 +1,6 @@
-# yi
+# YI
 
-Yi is a simple deep learning framework based on Numpy that supports automatic gradients.
+YI is a simple deep learning framework based on Numpy that supports automatic gradients.
 ## Installation
 `python setup.py install`
 
@@ -116,7 +116,7 @@ class Maximum(ComputeNodeDetached):
         a, b = self.inputs_data
         return np.maximum(a, b)
     
-    # backward + (a,b,c,d,e,f,g...)
+    # backward _ (a,b,c,d,e,f,g...)
     def backward_a(self, dy: Union[int, ndarray] = None) -> ndarray:
         a, b = self.inputs_data
         mask_a = a > b
