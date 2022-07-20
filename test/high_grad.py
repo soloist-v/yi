@@ -1,6 +1,4 @@
 import yi
-import numpy as np
-import time
 
 a = yi.tensor([1, 2, 3, 4, 5, 6.], requires_grad=True)
 y = a * a * a * 2 + 3 * a * a + a
